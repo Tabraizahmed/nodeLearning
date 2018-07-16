@@ -8,6 +8,7 @@ var sayings = [
     "Well done is better than well said."
 ];
 
+console.log("hello world")
 var interval = setInterval(function() {
 	var i = Math.floor(Math.random() * sayings.length);
 	process.stdout.write(`${sayings[i]} \n`);
